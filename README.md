@@ -4,6 +4,8 @@
 
 这是一款完全离线的【<b>安卓</b>】音乐播放器App，适用于追求纯粹听歌体验的朋友们。如果你有自己的音乐文件库，本应用也许适合你。
 
+[APK免费下载](https://github.com/xachary/t_music_player/releases)
+
 播放自己的音乐库，再也不需要联网、不需要看一堆广告、不需要看一堆个性化推荐。。。
 
 ![Screenshot](https://github.com/user-attachments/assets/35573171-cadb-4a47-bf2e-e2c05ee6b56a)
