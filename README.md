@@ -103,6 +103,17 @@
 
 ## 版本日志
 
+### v0.3.1
+
+修复: 权限请求兼容就安卓版本
+优化: 兼容一下较低分辨率
+修复: 优化随机算法
+新增: 支持逐行歌词文件
+
+![Screenshot_2025-08-19-11-28-05-23_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/76027468-cabc-475c-acd4-057560bd366f)
+
+致敬这个棒棒的歌词下载工具：[LDDC](https://github.com/chenmozhijin/LDDC)
+
 ### v0.2.1
 新增: 主动切歌后在该歌曲结束前30秒切歌也能加分
 新增: 底栏播放按钮效果
