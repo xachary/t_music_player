@@ -103,17 +103,6 @@
 
 ## 版本日志
 
-### v0.3.3
-
-修复：错误/损坏音频文件导致崩溃，识别并提示
-
-- 错误的音频文件，导致播放失败
-- 损坏的音频文件，导致播放终止
-
-<img width="436" height="480" alt="image" src="https://github.com/user-attachments/assets/6dc7c450-1e3a-4052-af8c-21674bbebaac" />
-
-优化：播放页面隐藏状态栏
-
 ### v0.4.1
 
 修复：减少重复的音频文件损坏报错
@@ -126,6 +115,17 @@
 ![Screenshot_2025-08-20-17-20-08-89_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/f520028c-ea55-41f5-bf99-22cedd731b63)
 
 <img width="286" height="645" alt="image" src="https://github.com/user-attachments/assets/6d28c4a3-8526-43fd-8f7c-c3ee56edb044" />
+
+### v0.3.3
+
+修复：错误/损坏音频文件导致崩溃，识别并提示
+
+- 错误的音频文件，导致播放失败
+- 损坏的音频文件，导致播放终止
+
+<img width="436" height="480" alt="image" src="https://github.com/user-attachments/assets/6dc7c450-1e3a-4052-af8c-21674bbebaac" />
+
+优化：播放页面隐藏状态栏
 
 ### v0.3.2
 
