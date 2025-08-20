@@ -114,6 +114,19 @@
 
 优化：播放页面隐藏状态栏
 
+### v0.4.1
+
+修复：减少重复的音频文件损坏报错
+新增：匹配并显艺术家示头像
+> 在扫描目录下，新建一个名为 Artists 的目录（注意大小写），头像图片文件以艺术家命名，支持 webp/jpg/jpeg/png（推荐在 Apple Music 提取 webp 图片），例如：
+>
+> 蔡依林.webp
+> 周杰伦.webp
+
+![Screenshot_2025-08-20-17-20-08-89_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/f520028c-ea55-41f5-bf99-22cedd731b63)
+
+<img width="286" height="645" alt="image" src="https://github.com/user-attachments/assets/6d28c4a3-8526-43fd-8f7c-c3ee56edb044" />
+
 ### v0.3.2
 
 修复: 随机算法边界处理
