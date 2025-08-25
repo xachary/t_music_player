@@ -103,6 +103,21 @@
 
 ## 版本日志
 
+### v0.7.0
+
+新增：轻度适配横屏模式
+新增：清空数据入口
+新增：支持中英文切换
+调整：一些提示和文案调整
+
+![Screenshot_2025-08-25-17-12-12-11_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/c389b608-fc71-4ad9-ba8e-bfa62705aceb)
+
+![Screenshot_2025-08-25-17-04-52-81_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/a6a3700d-2099-4d97-8566-5db6edd60173)
+
+### v0.6.0
+
+新增：单向播放模式
+
 ### v0.5.5
 
 优化：更细的定时间隔
