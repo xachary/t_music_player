@@ -10,6 +10,13 @@
 
 ![Screenshot](https://github.com/user-attachments/assets/35573171-cadb-4a47-bf2e-e2c05ee6b56a)
 
+<img width="1449" height="527" alt="image" src="https://github.com/user-attachments/assets/6892da62-c59a-4747-87dc-97c8298c5a9d" />
+
+![Screenshot_2025-08-25-17-12-12-11_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/c389b608-fc71-4ad9-ba8e-bfa62705aceb)
+
+![Screenshot_2025-08-25-17-04-52-81_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/a6a3700d-2099-4d97-8566-5db6edd60173)
+
+
 应用市场上架太麻烦了，又要认证、软著、备案、隐私协议等等流程和费用。
 
 本App只是一个以非盈利为目的，满足了个人欣赏音乐的需要开发的简单App。
@@ -96,12 +103,22 @@
 心动数据可以备份和转移；另外，重新扫描目录，原来的心动数据不会丢失。
 
 ## 最后
-本应用暂时不支持：自定义播放列表，请谅解。
 本应用暂时只有安卓端。
 
 > 未来。。。也许会支持。。。
 
 ## 版本日志
+
+### v0.8.0
+
+新增：自定义播放列表
+> 自定义播放列表及其歌曲可以长按调整顺序
+
+<img width="1449" height="527" alt="image" src="https://github.com/user-attachments/assets/6892da62-c59a-4747-87dc-97c8298c5a9d" />
+
+新增：feat: 播放15秒后，上一首操作使歌曲重新播放。
+
+优化：优化、修复若干细节
 
 ### v0.7.9
 
