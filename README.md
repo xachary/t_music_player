@@ -1,5 +1,11 @@
 # T Music Player（TMPlayer）
 
+<b>喜欢请送我一个Star吧！</b>
+
+<b>喜欢请送我一个Star吧！</b>
+
+<b>喜欢请送我一个Star吧！</b>
+
 <img width="192" height="192" alt="launcher_icon" src="https://github.com/user-attachments/assets/29f01b3a-d28f-430e-8efe-93c36c3c3895" />
 
 这是一款完全离线的【<b>安卓</b>】音乐播放器App，适用于追求纯粹听歌体验的朋友们。如果你有自己的音乐文件库，本应用也许适合你。
