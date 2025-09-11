@@ -1,5 +1,7 @@
 # T Music Player（TMPlayer）
 
+[阶段性功能补充说明](https://github.com/xachary/t_music_player/blob/master/README%20-%20v0.12.2.md)
+
 <b>喜欢请送我一个Star吧！</b>
 
 <b>喜欢请送我一个Star吧！</b>
