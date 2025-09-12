@@ -1,6 +1,14 @@
 # T Music Player
 
+这是一款完全离线的音乐播放器安卓App，适用于追求纯粹听歌体验的朋友们。如果你有自己的音乐文件库，本应用也许适合你。
+
 [下载地址](https://github.com/xachary/t_music_player/releases)
+
+<b>喜欢请送我一个Star吧！</b>
+
+<b>喜欢请送我一个Star吧！</b>
+
+<b>喜欢请送我一个Star吧！</b>
 
 ## 支持横屏
 
