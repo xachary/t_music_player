@@ -1,418 +1,195 @@
-# T Music Player（TMPlayer）
+# T Music Player
 
-[阶段性功能补充说明](https://github.com/xachary/t_music_player/blob/master/README%20-%20v0.12.2.md)
+[下载地址](https://github.com/xachary/t_music_player/releases)
 
-<b>喜欢请送我一个Star吧！</b>
+## 支持横屏
 
-<b>喜欢请送我一个Star吧！</b>
+<img width="489" height="219" alt="image" src="https://github.com/user-attachments/assets/b9c27288-b171-43a8-b2cf-88f00b081699" />
 
-<b>喜欢请送我一个Star吧！</b>
-
-<img width="192" height="192" alt="launcher_icon" src="https://github.com/user-attachments/assets/29f01b3a-d28f-430e-8efe-93c36c3c3895" />
-
-这是一款完全离线的【<b>安卓</b>】音乐播放器App，适用于追求纯粹听歌体验的朋友们。如果你有自己的音乐文件库，本应用也许适合你。
-
-[APK免费下载](https://github.com/xachary/t_music_player/releases)
-
-播放自己的音乐库，再也不需要联网、不需要看一堆广告、不需要看一堆个性化推荐。。。
-
-![Screenshot](https://github.com/user-attachments/assets/35573171-cadb-4a47-bf2e-e2c05ee6b56a)
-
-<img width="1449" height="527" alt="image" src="https://github.com/user-attachments/assets/6892da62-c59a-4747-87dc-97c8298c5a9d" />
-
-![Screenshot_2025-08-25-17-12-12-11_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/c389b608-fc71-4ad9-ba8e-bfa62705aceb)
-
-![Screenshot_2025-08-25-17-04-52-81_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/a6a3700d-2099-4d97-8566-5db6edd60173)
-
-
-应用市场上架太麻烦了，又要认证、软著、备案、隐私协议等等流程和费用。
-
-本App只是一个以非盈利为目的，满足了个人欣赏音乐的需要开发的简单App。
-
-既然做出来了，自己独享有点可惜，所以就分享出来！
-
-## 选择扫描目录
-为了扫描歌曲目录，建立音乐库、读取歌曲封面，会需要2个权限：
-- 音频文件
-- 所有文件访问权限
-
-为了支持蓝牙歌曲信息推送、断连停止播放，会需要1个权限：
-- 附近的设备
-
-## 歌曲名和艺术家信息的识别
-本应用直接通过文件名匹配，同路径下的同名图片可作为歌曲封面显示，规则如下：
-- 歌曲名 - 艺术家
-- 歌曲名 - 艺术家1&艺术家2&更多
-
-> 例如：
+> 【个人场景分享】
 >
-> ”11 - 邓紫棋.flac“
+> 把手机、平板架起来摆放听歌，尤其是开车蓝牙连接、洗澡的时候。
 >
-> ”11 - 邓紫棋.webp“ -- 可选，存在就作为封面显示
-> 
-> 歌曲名：”11“
+> （垃圾车机，只能一直用手机蓝牙连接听歌😭）
+
+## 支持系统媒体播放信息同步
+
+1、手机
+
+<img width="221" height="90" alt="image" src="https://github.com/user-attachments/assets/4eb91224-9908-4548-b182-6b00d8cedf2b" />
+
+2、手表
+
+<img width="204" height="259" alt="image" src="https://github.com/user-attachments/assets/97463623-2d82-44a0-abb4-09fd6d151d5f" />
+
+3、车机
+> 类似“手表”
+
+## 支持开启系统的固定应用模式
+
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/b03c13c9-aa0e-41b9-ab56-13fdc53acb35" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/d48cc279-ab2f-43a2-b4fc-49e43d32f514" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/6daf68d4-95c6-4ab0-b44e-4d22d62b43cd" />
+
+> 【个人场景分享】
 >
-> 艺术家：”邓紫棋“
+> 把歌曲换成故事、儿歌，开启系统固定应用模式后，小朋友只能操作当前App，用于听故事、儿歌，不能沉迷游戏😊。
 >
-> ”Easy Come Easy Go - 蔡健雅&MC HotDog.mp3“
-> 
-> ”Easy Come Easy Go - 蔡健雅&MC HotDog.jpg“ -- 常用的图片格式都可以
-> 
-> 歌曲名：”Easy Come Easy Go“
+> 也可以防止猪朋狗友乱翻手机，哈哈。
+
+## 四种歌曲列表
+
+1、全部
+
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/4ca7a5cb-d30e-4cc9-b915-a02c543b877b" />
+
+> 目前自用1100多首歌，算上封面、歌词文件，总的3000多个文件，还行吧，不算太卡哈。
+
+2、按歌手
+
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/cf6fef1c-0a99-4e79-9a65-d515476604b4" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/7bfe857d-f984-4dce-874a-d179d5539b05" />
+
+3、心动歌曲
+
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/03db0423-aeac-4e86-bc44-777014f30929" />
+
+> 【个人场景分享】
 >
-> 艺术家：”蔡健雅;MC HotDog“
+> 我认为，最近真正喜欢一首歌：
+>
+> - 会主动选择播放它并听完
+> - 切歌切到它，也会听完
+> 
+> 我认为，最近对一首歌兴趣减弱了：
+>
+> - 不会选择播放它
+> - 切歌切到它，会很快切走它
+>
+> 基于上面个人的见解，给歌曲加减分并排序，形成一个歌曲列表
 
-## 通用排序规则
-从 A 到 z 排序。针对中文歌曲名，则以每个字的拼音首字母从 A 到 z 排序。
+4、自定义播放列表
 
-## 播放列表
-本应用支持 3 种播放列表：[全部歌曲](#全部歌曲)、[艺术家和歌曲](#艺术家和歌曲)、[心动歌曲](#心动歌曲)。
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/acd74dac-7f5e-40e2-80c3-a542cc1858cd" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/3a1a6ad8-de8f-48a9-a027-06f842bc6b50" />
 
-> ### 全部歌曲
-> 支持首字母快速定位，支持英文首字母、拼音首字母；支持关键字筛选。
-> 
-> ### 艺术家和歌曲
-> 定位、筛选规则与[全部歌曲](#全部歌曲)一样，先选艺术家，后选歌曲。特别说明，多艺术家歌曲（其实就是合唱歌曲），满足上面[歌曲名和艺术家信息的识别](#歌曲名和艺术家信息的识别)规则的情况下，会拆分为多个艺术家显示，均能定位到该歌曲。
-> > 例如：
-> > 
-> > ”Easy Come Easy Go - 蔡健雅&MC HotDog.mp3“
-> > 
-> > 将会出现2个艺术家
-> > - 蔡健雅
-> > - MC HotDog
-> > 
-> > 无论进入哪一位艺术家的歌曲列表，都会出现”Easy Come Easy“这个歌曲。
-> > 
-> ### 心动歌曲
-> 歌曲有一个评分，暂称为【心动指数】，评分越高，排名越前。
-> 
-> 具体规则如下：
-> 
-> 1、~~主动从歌曲列表中选择的歌曲，评分+1；~~
-> 
-> 1、在播放界面中，点击左下角评分按钮后，评分+1；
-> 
-> 2、主动切歌~~到上/下一歌曲~~/选歌，并听~~完整首歌曲~~到最后30秒，评分+1。
-> 
-> 3、当前歌曲播放前 15 秒切走该歌曲，评分-1；
-> 
-> 4、点击播放列表中歌曲的更多按钮，点击【重置心动指数】可以清零。
+> 【个人场景分享】
+>
+> 开车蓝牙连接听歌，可以给特定的人准备播放列表
+>
+> 最近需要练习一些歌曲，无论是唱歌、跳舞，自定义播放列表还是很有必要的
 
-## 播放模式
-包含循环模式、重复模式、[随机模式](#随机模式)。
+## 本地音频文件三种匹配规则
 
-> ### 随机模式
-> 在设置页中，可以设置【随机播放不重复】的数量，默认是 100 首，也就说，随机模式下切歌最近 100 首内不会出现重复的歌曲。
+1、歌曲名 - 艺术家1&艺术家2
+
+<img width="219" height="181" alt="image" src="https://github.com/user-attachments/assets/a5c1468a-fa86-4e5c-a762-7e32d68cee94" />
+
+> 一开始，我是习惯用这种方式，通过艺术家命名文件夹，整理自己的音乐库的
+
+2、艺术家1&艺术家2 - 歌曲名
+
+<img width="219" height="181" alt="image" src="https://github.com/user-attachments/assets/042ae3df-1601-45a7-b6ae-096f1b55a653" />
+
+> 后来发现，用这种命名方式，一股脑都放到一个目录里，更适合懒人习惯，也挺好
+
+3、ID3
+
+> 音频文件元数据，也是作为兜底的匹配方式
+
+## 本地艺术家头像匹配
+
+<img width="231" height="246" alt="image" src="https://github.com/user-attachments/assets/440a5109-d095-4b1f-b916-824648006203" />
+
+> 支持常见的图片格式
+
+## 四种播放顺序
+
+- 当前播放列表循环
+- 当前播放列表顺序
+- 随机
+- 单曲循环
+
+>【个人场景分享】
+>
+> 打开应用，首先出现的就是“随机播放”按钮，个人习惯，因为选择困难
+>
+> <img width="221" height="490" alt="image" src="https://github.com/user-attachments/assets/38195112-2257-422a-bf36-f7a777ae80a3" />
 
 ## 延时停止播放
-支持2小时以内延时停止播放，支持播放完当前歌曲再停止。
 
-## 导出/导入心动数据
-心动数据可以备份和转移；另外，重新扫描目录，原来的心动数据不会丢失。
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/ff1474f7-59b5-4387-a038-0fb65acb337f" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/2ae0daf2-7d42-4841-90b1-64795f0df443" />
 
-## 最后
-本应用暂时只有安卓端。
-
-> 未来。。。也许会支持。。。
-
-## 版本日志
-
-### v0.12.4
-
-新增：播放倍速修改功能
-
-### v0.12.2
-
-修复: 
-- A-B模式边界判断有误
-- 移除不该出现的输入法弹窗
-
-新增: 歌手后面显示心动数字
-
-### v0.12.1
-
-修复: 优化A-B的进度条约束
-
-### v0.12.0
-
-新增: A-B区间播放功能
-
-调整: 移除播放界面的心动按钮
-
-### v0.11.5
-
-修复: 
-- 扫描时隐藏表单
-- 心动指数刷新异常
-  
-新增: 新增心动指数加分菜单
-
-### v0.11.3
-
-新增：搜索清空按钮
-
-修复: 输出损坏歌曲的艺术家
-
-### v0.11.2
-
-修复: 多字拼音准确性
-
-### v0.11.1
-
-优化: 避免特定交互下输入法遮挡问题
-
-### v0.11.0
-
-优化: 文件损坏识别逻辑
-
-新增：播放列表支持2种排序：标题 - 正序、添加时间 - 倒序
-
-修复：数据导入异常
-
-### v0.10.6
-
-新增: 播放中的列表文字渐变动态
-
-修复: 多余的定位逻辑
-
-### v0.10.5
-
-新增：支持切换系统的固定模式
-
-优化：播放按钮、操作按钮位置
-
-### v0.10.4
-
-优化：统一更多按钮的操作及其各状态同步
-
-### v0.10.3
-
-新增：
-- 当前播放列表显示定位
-- 列表定位当前歌曲的按钮
-- 列表显示歌手
-
-### v0.10.1
-
-新增：
-- 播放过的歌曲时长更新和显示
-- 生成随机当前播放列表、显示随机列表
-- 当前播放列表独立，可插入（下一首播放）歌曲、移除歌曲
-
-修复：
-- 扫描进度有误
-- 补充点击震动
-
-优化：
-- 优化信息显示、按钮位置
-- 优化列表按钮位置、图标
-- 状态化艺术家、播放列表的歌曲列表
-- 优化歌曲列表弹出卡顿
-- 文件损坏播放终止，提示损坏位置
-
-调整：
-- 移除随机播放设置项
-- 当前播放列表不再显示播放列表名称（因为当前播放列表可以编辑）
-
-### v0.9.2
-
-新增: 支持3种匹配歌曲信息
-- 歌曲名 - 艺术家1;艺术家2
-- 艺术家1;艺术家2 - 歌曲名
-- ID3（前2种方式识别失败后都会尝试 ID3 方式）
-
-### v0.8.8
-
-修复: 横屏时摄像头遮挡按钮
-
-### v0.8.7
-
-修复: 播放模式横竖切换状态丢失
-
-### v0.8.6
-
-优化：替换通知组件
-
-### v0.8.5
-
-修复: 切换横竖的时候恢复列表状态
-
-调整: 歌曲列表切换歌曲关闭窗口
-
-调整: 歌曲列表切换歌曲关闭窗口
-
-调整: 调整心动加分逻辑
-> 主动切歌不马上加分，至少听到最后30秒。
-
-### v0.8.3
-
-修复: 按钮颜色不一致
-
-### v0.8.2
-
-新增: 播放页面补充添加到播放列表按钮
-
-### v0.8.1
-
-修复: 修复播放列表导入异常
-
-### v0.8.0
-
-新增：自定义播放列表
-> 自定义播放列表及其歌曲可以长按调整顺序
-
-<img width="1449" height="527" alt="image" src="https://github.com/user-attachments/assets/6892da62-c59a-4747-87dc-97c8298c5a9d" />
-
-新增：feat: 播放15秒后，上一首操作使歌曲重新播放。
-
-优化：优化、修复若干细节
-
-### v0.7.9
-
-优化: 重构歌曲、艺术家列表，更好适配横屏
-
-修复: 艺术家列表样式异常
-
-### v0.7.8
-
-修复: 列表按钮位置横屏异常
-
-### v0.7.7
-
-修复: 单向播放结束后切换状态
-
-### v0.7.6
-
-图标更新
-
-### v0.7.5
-
-修复: 修正关键词匹配，支持拼音首字母匹配
-
-修复: 首次进入App扫描目录后没有刷新歌曲列表
-
-新增: 通知栏推送播放失败情况，播放失败后自动播放下一首
-
-修复: 应用图标异常
-
-### v0.7.2
-
-修复：隐藏工具栏不稳定
-
-### v0.7.1
-
-新增：播放页长按心动按钮可以重置该歌曲
-
-### v0.7.0
-
-新增：轻度适配横屏模式
-
-新增：清空数据入口
-
-新增：支持中英文切换
-
-调整：一些提示和文案调整
-
-![Screenshot_2025-08-25-17-12-12-11_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/c389b608-fc71-4ad9-ba8e-bfa62705aceb)
-
-![Screenshot_2025-08-25-17-04-52-81_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/a6a3700d-2099-4d97-8566-5db6edd60173)
-
-### v0.6.0
-
-新增：单向播放模式
-
-### v0.5.5
-
-优化：更细的定时间隔
-
-优化：提示损坏的歌曲名
-
-### v0.5.4
-
-修复：定时停止播放出现误判文件损坏
-
-### v0.5.3
-
-修复：首字母定位支持数字
-
-### v0.5.2
-
-优化：重构音乐库列表显示，移除心动列表的播放时间的显示
-
-优化：首字母快速定位栏高亮当前字母
-
-![Aug-22-2025 17-15-18](https://github.com/user-attachments/assets/68d58ad3-31fb-47bf-a2ca-58196d821bd8)
-
-### v0.4.5
-
-修复: 播放列表滚动优化
-
-优化: 高亮正在播放歌曲
-
-### v0.4.1
-
-修复：减少重复的音频文件损坏报错
-
-新增：匹配并显艺术家示头像
-
-> 在扫描目录下，新建一个名为 Artists 的目录（注意大小写），头像图片文件以艺术家命名，支持 webp/jpg/jpeg/png（推荐在 Apple Music 提取 webp 图片），例如：
+>【个人场景分享】
 >
-> 蔡依林.webp
-> 周杰伦.webp
+> 习惯了睡前戴一只蓝牙耳机，听音乐催眠
 
-![Screenshot_2025-08-20-17-20-08-89_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/f520028c-ea55-41f5-bf99-22cedd731b63)
+## A-B区间循环播放
 
-<img width="286" height="645" alt="image" src="https://github.com/user-attachments/assets/6d28c4a3-8526-43fd-8f7c-c3ee56edb044" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/4bfb09dc-8958-4bde-a6aa-e089d1155432" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/76ccf488-b7bf-418d-bc64-223d29ac75f8" />
 
-### v0.3.3
+>【个人场景分享】
+>
+> 可以用于歌曲练习，无论是唱歌、跳舞，可以重复训练
 
-修复：错误/损坏音频文件导致崩溃，识别并提示
+## 两种排序
 
-- 错误的音频文件，导致播放失败
-- 损坏的音频文件，导致播放终止
+1、按标题
 
-<img width="436" height="480" alt="image" src="https://github.com/user-attachments/assets/6dc7c450-1e3a-4052-af8c-21674bbebaac" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/b1bc2f0b-6257-43d2-b911-b3d09659cdfd" />
 
-优化：播放页面隐藏状态栏
+> 【个人场景分享】
+> 
+> 按英文、拼音首字母快速定位
+>
+> 另外，这里的搜索，支持：
+>
+> - 中英文直接匹配
+> - 中文每个字的拼音首字母匹配（这个很方便）
+> <img width="221" height="490" alt="image" src="https://github.com/user-attachments/assets/5e278aa3-51be-47dc-a1d6-76ffd11607f4" />
 
-### v0.3.2
+2、按扫描加入时间
 
-修复: 随机算法边界处理
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/5815a1b6-19c9-4185-801b-2eda1366f8e7" />
 
-### v0.3.1
+>【个人场景分享】
+>
+> 最近加入的新歌，可以优先显示在前面，方便欣赏新歌
 
-修复: 权限请求兼容就安卓版本
+## 下一首播放
+> 类似“插队”，插入/移动到当前播放列表的下一首位置
 
-优化: 兼容一下较低分辨率
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/03cbe4ae-7eba-4742-a92e-626980071e3f" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/7c682873-655c-46c1-8e85-52747992a511" />
 
-修复: 优化随机算法
+>【个人场景分享】
+>
+> 类似卡拉OK的置顶，接下来想听什么歌就点它
 
-新增: 支持逐行歌词文件
+## 添加播放列表、添加到播放列表
 
-![Screenshot_2025-08-19-11-28-05-23_a17349a9ab8e7918c0ec2c3decfbc1da_副本](https://github.com/user-attachments/assets/76027468-cabc-475c-acd4-057560bd366f)
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/be49fee9-fb11-4be1-8119-4b9466f5ff14" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/7d8a5f1a-75d0-4ff7-b03c-50f1b9ac33b8" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/0ec9a4d4-11c0-4121-add5-5d1878170732" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/908a87de-a441-4194-968f-5f4890264d91" />
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/ff15adb9-0cec-4299-8248-6f9c9751b194" />
 
-致敬这个棒棒的歌词下载工具：[LDDC](https://github.com/chenmozhijin/LDDC)
+> 可以直接添加到已经存在的播放列表
+>
+> 也可以添加播放列表后再添加到播放列表
 
-### v0.2.1
+## 支持英文
 
-新增: 主动切歌后在该歌曲结束前30秒切歌也能加分
+<img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/d1eb8ff7-1127-4fb3-9e5b-ed672fb3e18a" />
 
-新增: 底栏播放按钮效果
+## 其它小细节
 
-![Screenshot_2025-08-17-08-43-26-98_1814146aa54f3461d48406888cea7a6a_副本](https://github.com/user-attachments/assets/bb3e2c0a-485d-4e89-8728-05c68017a318)
-
-新增: 封面改为扫描时识别、列表增加封面的显示
-
-![Screenshot_2025-08-17-08-45-08-89_1814146aa54f3461d48406888cea7a6a_副本](https://github.com/user-attachments/assets/1b417d46-99bb-47eb-a5fd-50ca2bcdf0f1)
-
-修复：减少卡顿
-
-### v0.1.1
-
-修复: 艺术家歌曲列表快速定位异常、无效的定时设置。
-
-新增: 按钮添加震动、定时显示倒计时。
-
-### v0.1.0
-
-首次发布版本：v0.1.0
+- 播放的时候持续亮屏的
+- 快速定位当前播放歌曲的列表位置
+- 交互有震动
+- 列表中正在播放的歌曲高亮会微微闪烁
+- 播放失败，大概就是音频文件有损坏，会显示并通知提醒你
+- 隐藏状态栏
+...
