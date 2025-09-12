@@ -11,6 +11,7 @@
 <b>喜欢请送我一个Star吧！</b>
 
 > 歌词下载，推荐：[LDDC](https://github.com/chenmozhijin/LDDC/fork) -> [下载地址](https://github.com/chenmozhijin/LDDC/releases)
+> 
 > 歌曲封面/歌手头像，推荐：[Apple Music](https://music.apple.com/)
 
 ## 支持横屏
