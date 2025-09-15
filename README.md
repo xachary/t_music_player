@@ -206,6 +206,26 @@
 
 <img width="221" height="491" alt="image" src="https://github.com/user-attachments/assets/d1eb8ff7-1127-4fb3-9e5b-ed672fb3e18a" />
 
+## 显示音质标签
+
+码率是根据文件大小和时长模拟计算的：
+
+> Hi-Res: 码率>= 9216
+> 
+> CD: 码率>= 1411
+> 
+> SQ: 码率>= 320
+> 
+> HQ: 码率>= 192
+> 
+> 标准: 码率>= 128
+> 
+> 流畅: 码率< 128
+
+<img width="226" height="530" alt="image" src="https://github.com/user-attachments/assets/367ef7b3-4fd2-441b-a69a-67d887f0100b" />
+
+<img width="226" height="530" alt="image" src="https://github.com/user-attachments/assets/41680c9a-17f4-45de-9db6-fba4850d89cd" />
+
 ## 其它小细节
 
 - 播放的时候持续亮屏的
